@@ -3,8 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-            sh 'touch abcd.txt'
-            sh 'touch xyz.txt'    
+            sh 'touch abcd.txt'               
             }
         }
         stage('Test'){
